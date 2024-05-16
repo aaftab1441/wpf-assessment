@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\TestingWPFProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\keephistorymodal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\keephistorymodal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\settingsmodal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\settingsmodal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\converters\\stringtoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\converters\\stringtoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\settingsmodal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\settingsmodal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\converters\\optiontobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\converters\\optiontobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|c:\\projects\\testingwpfproject\\testingwpfproject\\converters\\booltoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56AF69D-4BF8-48CA-B15F-565E15B3C3E4}|TestingWPFProject\\TestingWPFProject.csproj|solutionrelative:testingwpfproject\\converters\\booltoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\App.xaml",
+              "RelativeDocumentMoniker": "TestingWPFProject\\App.xaml",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\App.xaml",
+              "RelativeToolTip": "TestingWPFProject\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T16:34:24.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StringToBoolConverter.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\StringToBoolConverter.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\Converters\\StringToBoolConverter.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\StringToBoolConverter.cs",
+              "RelativeToolTip": "TestingWPFProject\\Converters\\StringToBoolConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:03:21.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeepHistoryModal.xaml",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\KeepHistoryModal.xaml",
+              "RelativeDocumentMoniker": "TestingWPFProject\\KeepHistoryModal.xaml",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\KeepHistoryModal.xaml",
+              "RelativeToolTip": "TestingWPFProject\\KeepHistoryModal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T20:54:53.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsModal.xaml",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\SettingsModal.xaml",
+              "RelativeDocumentMoniker": "TestingWPFProject\\SettingsModal.xaml",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\SettingsModal.xaml",
+              "RelativeToolTip": "TestingWPFProject\\SettingsModal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T15:08:15.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SettingsModal.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\SettingsModal.xaml.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\SettingsModal.xaml.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\SettingsModal.xaml.cs",
+              "RelativeToolTip": "TestingWPFProject\\SettingsModal.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:03:10.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\Converters\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "TestingWPFProject\\Converters\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:02:08.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\RelayCommand.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\RelayCommand.cs",
+              "RelativeToolTip": "TestingWPFProject\\RelayCommand.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvyQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:02:54.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OptionToBooleanConverter.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\OptionToBooleanConverter.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\Converters\\OptionToBooleanConverter.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\OptionToBooleanConverter.cs",
+              "RelativeToolTip": "TestingWPFProject\\Converters\\OptionToBooleanConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:14:49.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TestingWPFProject\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:02:39.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TestingWPFProject\\MainWindow.xaml",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\MainWindow.xaml",
+              "RelativeToolTip": "TestingWPFProject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T14:47:00.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BoolToImageConverter.cs",
+              "DocumentMoniker": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\BoolToImageConverter.cs",
+              "RelativeDocumentMoniker": "TestingWPFProject\\Converters\\BoolToImageConverter.cs",
+              "ToolTip": "C:\\Projects\\TestingWPFProject\\TestingWPFProject\\Converters\\BoolToImageConverter.cs",
+              "RelativeToolTip": "TestingWPFProject\\Converters\\BoolToImageConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T18:46:03.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1858,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

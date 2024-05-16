@@ -1,0 +1,22 @@
+﻿<Application x:Class="TestingWPFProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TestingWPFProject"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:StringToBoolConverter x:Key="StringToBoolConverter"/>
+        <local:BoolToImageConverter x:Key="BoolToImageConverter"/>
+        <local:OptionToBooleanConverter x:Key="OptionToBooleanConverter"/>
+        <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <FontFamily x:Key="MulishBold">pack://application:,,,/Fonts/#Mulish Bold</FontFamily>
+
+        <!-- Define the Heading 5 Bold style -->
+        <Style x:Key="Heading5Bold" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="{StaticResource MulishBold}"/>
+            <Setter Property="FontSize" Value="19"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="LineHeight" Value="22.8"/>
+            <Setter Property="TextAlignment" Value="Left"/>
+        </Style>
+    </Application.Resources>
+</Application>

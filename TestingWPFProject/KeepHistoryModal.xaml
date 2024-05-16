@@ -1,0 +1,124 @@
+﻿<Window x:Class="TestingWPFProject.KeepHistoryModal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Keep History" Height="400" Width="552"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"
+AllowsTransparency="True" Background="Transparent">
+    <Window.Resources>
+        <FontFamily x:Key="MulishFont">./#Mulish</FontFamily>
+    </Window.Resources>
+    <Border Background="White" CornerRadius="12" Height="Auto">
+        <StackPanel Margin="0">
+            <Border CornerRadius="12,12,0,0" BorderBrush="LightGray" BorderThickness="1" Background="#F9FAFB">
+                <StackPanel>
+                    <!-- Title and Close Button -->
+                    <DockPanel Width="516" Height="32" Margin="24,12,12,12">
+                        <TextBlock Text="Keep existing version history?" Width="476" Height="23" FontSize="19" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                       DockPanel.Dock="Left" Foreground="#1F2937" />
+                        <Button Command="{Binding CloseCommand}" Width="32" Height="32" Background="#F9FAFB" 
+    BorderBrush="#F9FAFB" Foreground="#9CA3AF" FontSize="16" FontWeight="Bold" 
+    VerticalAlignment="Center" HorizontalAlignment="Right" DockPanel.Dock="Right" FontFamily="{StaticResource MulishFont}">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" 
+                BorderBrush="{TemplateBinding BorderBrush}" 
+                BorderThickness="{TemplateBinding BorderThickness}" 
+                CornerRadius="8">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                            <Button.Content>
+                                <Border Width="24" Height="24" Background="Transparent">
+                                    <TextBlock Text="X" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </Button.Content>
+                        </Button>
+                    </DockPanel>
+
+                    <!-- Last Change Details -->
+                    <StackPanel Width="Auto" Height="Auto" Margin="24,0,24,12">
+                        <TextBlock Text="This was the last change made to this document:" Width="294" Height="20" FontWeight="Regular" FontSize="13" HorizontalAlignment="Left" VerticalAlignment="Top" LineHeight="150"/>
+                        <Border Background="White" CornerRadius="12" BorderBrush="LightGray" BorderThickness="1" Margin="0,10,0,0">
+                            <StackPanel Width="504" Height="Auto" Margin="12,12,6,0">
+                                <TextBlock Width="Auto" Height="32" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                    <Run Text="{Binding LastChangeTime}" FontWeight="Bold" FontSize="13" />
+                                    <Run Text=" by " FontWeight="Regular" FontSize="13"/>
+                                    <Run Text="{Binding LastChangeAuthor}" FontWeight="Regular" FontSize="13"/>
+                                </TextBlock>
+                                <Border Background="#F9FAFB" Height="1"/>
+                                <ItemsControl ItemsSource="{Binding GroupedChangeDetails}" Margin="4">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <WrapPanel Orientation="Horizontal" VerticalAlignment="Top">
+                                                <ItemsControl ItemsSource="{Binding}">
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal" />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                                                                <Border Width="Auto" Height="Auto" Padding="1,4,1,4" Margin="2,0,2,0" CornerRadius="4,0,0,0" Background="Transparent" VerticalAlignment="Top">
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Source="{Binding Icon}" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                                                        <Label Content="{Binding Label}" Width="Auto" Height="Auto" FontWeight="Regular" FontSize="12" Background="#F9FAFB" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                                                    </StackPanel>
+                                                                </Border>
+                                                                <Border Width="Auto" Margin="5,0,0,0" VerticalAlignment="Top">
+                                                                    <TextBlock Text="{Binding Details}" FontSize="14" Foreground="Black" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                                                                </Border>
+                                                            </StackPanel>
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </WrapPanel>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Question Text -->
+                    <StackPanel Width="Auto" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,0,24,10">
+                        <TextBlock Text="Do you want to keep using this document’s existing version history or start fresh?" FontWeight="Regular" FontSize="13" Margin="0,5,0,20"/>
+                        <TextBlock Text="The original document will keep its changes regardless." FontWeight="Regular" FontSize="13"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+            <!-- Buttons Panel with White Background -->
+            <StackPanel Background="White" Margin="0,10,0,0" Height="72" Width="552" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Start Fresh" Background="White" Foreground="Black" 
+                    FontWeight="Bold" HorizontalAlignment="Right" 
+                    Width="250" Height="48" Command="{Binding StartFreshCommand}" Margin="0,12,12,0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="8" 
+                                BorderBrush="{TemplateBinding BorderBrush}"  BorderThickness="{TemplateBinding BorderThickness}">
+                                    <TextBlock Text="{TemplateBinding Content}" FontWeight="Bold" FontSize="16" TextAlignment="Center" 
+                                       VerticalAlignment="Center" TextWrapping="WrapWithOverflow" Foreground="{TemplateBinding Foreground}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Content="Keep Version History" Background="#3B28CC" Foreground="White" 
+                    FontWeight="Bold" HorizontalAlignment="Right" 
+                    Width="250" Height="48" Command="{Binding KeepVersionHistoryCommand}" Margin="0,12,12,0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="8" 
+                                BorderBrush="{TemplateBinding BorderBrush}"  BorderThickness="{TemplateBinding BorderThickness}">
+                                    <TextBlock Text="{TemplateBinding Content}" FontWeight="Bold" FontSize="16" TextAlignment="Center" 
+                                       VerticalAlignment="Center" TextWrapping="WrapWithOverflow" Foreground="{TemplateBinding Foreground}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

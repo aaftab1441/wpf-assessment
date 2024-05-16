@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Mulish-Italic-VariableFont_wght.ttf" />
+    <None Remove="Fonts\Mulish-VariableFont_wght.ttf" />
+    <None Remove="Fonts\static\Mulish-Black.ttf" />
+    <None Remove="Fonts\static\Mulish-BlackItalic.ttf" />
+    <None Remove="Fonts\static\Mulish-Bold.ttf" />
+    <None Remove="Fonts\static\Mulish-BoldItalic.ttf" />
+    <None Remove="Fonts\static\Mulish-ExtraBold.ttf" />
+    <None Remove="Fonts\static\Mulish-ExtraBoldItalic.ttf" />
+    <None Remove="Fonts\static\Mulish-ExtraLight.ttf" />
+    <None Remove="Fonts\static\Mulish-ExtraLightItalic.ttf" />
+    <None Remove="Fonts\static\Mulish-Italic.ttf" />
+    <None Remove="Fonts\static\Mulish-Light.ttf" />
+    <None Remove="Fonts\static\Mulish-LightItalic.ttf" />
+    <None Remove="Fonts\static\Mulish-Medium.ttf" />
+    <None Remove="Fonts\static\Mulish-MediumItalic.ttf" />
+    <None Remove="Fonts\static\Mulish-Regular.ttf" />
+    <None Remove="Fonts\static\Mulish-SemiBold.ttf" />
+    <None Remove="Fonts\static\Mulish-SemiBoldItalic.ttf" />
+    <None Remove="Resources\checked_radio.png" />
+    <None Remove="Resources\checked_toggle.png" />
+    <None Remove="Resources\icon_minus.png" />
+    <None Remove="Resources\icon_plus.png" />
+    <None Remove="Resources\icon_tick.png" />
+    <None Remove="Resources\unchecked_radio.png" />
+    <None Remove="Resources\unchecked_toggle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Mulish-Italic-VariableFont_wght.ttf" />
+    <Resource Include="Fonts\Mulish-VariableFont_wght.ttf" />
+    <Resource Include="Fonts\static\Mulish-Black.ttf" />
+    <Resource Include="Fonts\static\Mulish-BlackItalic.ttf" />
+    <Resource Include="Fonts\static\Mulish-Bold.ttf" />
+    <Resource Include="Fonts\static\Mulish-BoldItalic.ttf" />
+    <Resource Include="Fonts\static\Mulish-ExtraBold.ttf" />
+    <Resource Include="Fonts\static\Mulish-ExtraBoldItalic.ttf" />
+    <Resource Include="Fonts\static\Mulish-ExtraLight.ttf" />
+    <Resource Include="Fonts\static\Mulish-ExtraLightItalic.ttf" />
+    <Resource Include="Fonts\static\Mulish-Italic.ttf" />
+    <Resource Include="Fonts\static\Mulish-Light.ttf" />
+    <Resource Include="Fonts\static\Mulish-LightItalic.ttf" />
+    <Resource Include="Fonts\static\Mulish-Medium.ttf" />
+    <Resource Include="Fonts\static\Mulish-MediumItalic.ttf" />
+    <Resource Include="Fonts\static\Mulish-Regular.ttf" />
+    <Resource Include="Fonts\static\Mulish-SemiBold.ttf" />
+    <Resource Include="Fonts\static\Mulish-SemiBoldItalic.ttf" />
+    <Resource Include="Resources\checked_radio.png" />
+    <Resource Include="Resources\checked_toggle.png" />
+    <Resource Include="Resources\icon_minus.png" />
+    <Resource Include="Resources\icon_plus.png" />
+    <Resource Include="Resources\icon_tick.png" />
+    <Resource Include="Resources\unchecked_radio.png" />
+    <Resource Include="Resources\unchecked_toggle.png" />
+  </ItemGroup>
+
+</Project>

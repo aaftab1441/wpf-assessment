@@ -1,0 +1,15 @@
+﻿<Window x:Class="TestingWPFProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestingWPFProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button Content="Open Settings Modal" Click="OpenSettingsModal" Margin="10"/>
+            <Button Content="Open Keep History Modal" Click="OpenKeepHistoryModal" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
